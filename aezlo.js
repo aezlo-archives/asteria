@@ -7,7 +7,7 @@ context.fillStyle = "black";
 context.fillRect(0, 0, canvas.width, canvas.height);
 
 // create a gradient for the halo
-var gradient = context.createRadialGradient(canvas.width * 0.1, canvas.height * 0.1, 0, canvas.width * 0.1, canvas.height * 0.1, canvas.width * 0.08);
+var gradient = context.createRadialGradient(canvas.width * 0.4, canvas.height * 0.4, 0, canvas.width * 0.4, canvas.height * 0.4, canvas.width * 0.35);
 gradient.addColorStop(0, "springgreen");
 gradient.addColorStop(1, "forestgreen");
 
@@ -25,5 +25,5 @@ gradient.addColorStop(1, "darkgreen");
 // draw the planet
 context.fillStyle = gradient;
 context.beginPath();
-context.arc(canvas.width * 0.2, canvas.height * 0.2, canvas.width * 0.2, 0, Math.PI * 2, false);
+context.arc(canvas.width * 0.4, canvas.height * 0.4, canvas.width * 0.4, 0, Math.PI * 2, false);
 context.fill();
