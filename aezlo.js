@@ -7,7 +7,7 @@ context.fillStyle = "black";
 context.fillRect(0, 0, canvas.width, canvas.height);
 
 // create a gradient for the halo
-var gradient = context.createRadialGradient(canvas.width * 0.5, canvas.height * 0.5, 0, canvas.width * 0.5, canvas.height * 0.5, canvas.width * 0.48);
+var gradient = context.createRadialGradient(canvas.width * 0.1, canvas.height * 0.1, 0, canvas.width * 0.1, canvas.height * 0.1, canvas.width * 0.08);
 gradient.addColorStop(0, "springgreen");
 gradient.addColorStop(1, "forestgreen");
 
