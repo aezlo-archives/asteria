@@ -25,5 +25,5 @@ gradient.addColorStop(1, "darkgreen");
 // draw the planet
 context.fillStyle = gradient;
 context.beginPath();
-context.arc(canvas.width * 0.5, canvas.height * 0.5, canvas.width * 0.35, 0, Math.PI * 2, false);
+context.arc(canvas.width * 0.2, canvas.height * 0.2, canvas.width * 0.2, 0, Math.PI * 2, false);
 context.fill();
